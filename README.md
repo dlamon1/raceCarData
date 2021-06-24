@@ -2,19 +2,19 @@
 
 ## Installation
 
-* Clone this repo 
+- Clone this repo
 
 or
 
-* Download install files for mac and windows from this oneDrive: 
+- Download install files for mac and windows from this oneDrive:
 
 ## How to use
 
-* Make sure vMix and raceCarData are running on the same local network
-* In raceCarData, enter the url for the race txt file 
-*   (ex/ https://www.escadinha.esp.br/crono/livetiming.txt )
-* Click start
-* In vMix, create a JSON data source using the url of the machine running raceCarData, include port 5000
-* (ex/ 192.168.0.23:5000 )
-* At this point there will be data showing in the vMix Data Sources window
-* If there is no data, check IP addresses and reload raceCarData
+- Make sure vMix and raceCarData are running on the same local network
+- In raceCarData, enter the url for the race txt file
+- (ex/ https://www.escadinha.esp.br/crono/livetiming.txt )
+- Click start
+- In vMix, create a JSON data source using the url of the machine running raceCarData, include port 5000
+- (ex/ http://192.168.0.23:5000 )
+- At this point there will be data showing in the vMix Data Sources window
+- If there is no data, check IP addresses and reload raceCarData
