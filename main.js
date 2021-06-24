@@ -1,5 +1,7 @@
-const { BrowserWindow, app, ipcMain } = require('electron');
+const { BrowserWindow, app, ipcMain, Menu } = require('electron');
 const { spinUp } = require('./main_fun')
+const template = require('./main_fun/menu')
+
 
 const path = require('path');
 
@@ -11,7 +13,7 @@ function createWindow() {
     height: 150,
     x: 1440,
     y: 0,
-    backgroundColor: '#3B4040',
+    backgroundColor: '#202020',
     webPreferences: {
       nodeIntegration: false,
       worldSafeExecuteJavaScript: true,
@@ -36,5 +38,8 @@ ipcMain.on('setUrl', (__, url) => {
     spinUp(url)
   })
 })
+
+const menu = Menu.buildFromTemplate(template)
+Menu.setApplicationMenu(menu)
 
 app.whenReady().then(createWindow)

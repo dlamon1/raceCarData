@@ -10,7 +10,7 @@ export default function App() {
   const [url, setUrl] = useState('')
 
   return (
-    <Grid container style={{ backgroundColor: '#3B4040', marginTop: 15 }}
+    <Grid container style={{ backgroundColor: '#202020', marginTop: 15 }}
       direction="row"
       justify="center"
       alignItems="center"

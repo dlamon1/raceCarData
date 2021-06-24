@@ -3,8 +3,8 @@ import purple from '@material-ui/core/colors/purple';
 import green from '@material-ui/core/colors/green';
 
 export const theme = createMuiTheme({
-  type: 'dark',
   palette: {
+    type: 'dark',
     primary: {
       main: green[700]
     },
