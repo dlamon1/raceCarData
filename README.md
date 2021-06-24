@@ -18,3 +18,7 @@ or
 - (ex/ http://192.168.0.23:5000 )
 - At this point there will be data showing in the vMix Data Sources window
 - If there is no data, check IP addresses and reload raceCarData
+
+## Why is the install file so large?
+
+This app is created using the Electron framework which is built on Chromium, which itself is large file size. 
